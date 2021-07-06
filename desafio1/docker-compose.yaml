@@ -1,0 +1,7 @@
+version: "3"
+services:
+  desafio1-webapp-go:
+    image: cruzesqueisso/fullcycle-desafio1:v1
+    container_name: desafio1-webapp-go
+    ports:
+      - "8000:8000"
